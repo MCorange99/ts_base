@@ -1,7 +1,7 @@
 {
-  "name": "ts_base",
+  "name": "femboy_db",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "target/src/index.js",
   "license": "MIT",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2",
@@ -10,5 +10,11 @@
     "@typescript-eslint/parser": "^5.51.0",
     "eslint": "^8.33.0",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
   }
 }
